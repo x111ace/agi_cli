@@ -1,0 +1,26 @@
+.env
+venv/
+
+tests/
+.pytest_cache/
+
+src/__pycache__/
+src/mods/__pycache__/
+src/providers/__pycache__/
+
+# Make your own prompts
+ext/agtc/cot-p.txt
+ext/agtc/cli-p.txt
+ext/agtc/sys-p.txt
+
+# Make your own characters
+ext/agtc/characters/init/
+
+# Keep your own logs
+ext/logs/
+
+# Keep your own data
+src/mods/data/
+
+# Personal
+dox/
