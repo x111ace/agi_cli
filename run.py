@@ -1,8 +1,8 @@
 # src/run.py
 
-import os
-import sys
 from pathlib import Path
+import sys
+import os
 
 def run():
     """Run the application."""

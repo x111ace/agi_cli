@@ -1,5 +1,8 @@
 # AGI CLI
 
+⚠️ This project is not intended for public use.  
+It is a personal or internal tool, and no license has been granted for usage or distribution.
+
 A command-line interface for interacting with multiple AI providers (OpenAI, xAI, Google) with features including: 
 - Conversation tracking & last session recovery
 - Token pricing & context tracking
