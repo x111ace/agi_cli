@@ -11,7 +11,7 @@ src/providers/__pycache__/
 # Make your own prompts
 # ext/agtc/cot-p.txt
 ext/agtc/cli-p.txt
-ext/agtc/sys-p.txt
+# ext/agtc/sys-p.txt
 
 # Make your own characters
 ext/agtc/characters/init/
