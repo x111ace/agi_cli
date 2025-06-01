@@ -9,8 +9,10 @@ FULL_PROJECT_ROOT = os.path.abspath(os.path.join(SOURCE_CODE_DIR, '..'))
 
 PROVIDERS_DIR = os.path.abspath(os.path.join(SOURCE_CODE_DIR, 'providers'))
 DATA_DIR = os.path.abspath(os.path.join(MODULES_DIR, 'data'))
-EXT_DIR = os.path.join(FULL_PROJECT_ROOT, 'ext')
+if not os.path.exists(DATA_DIR):
+    os.makedirs(DATA_DIR)
 
+EXT_DIR = os.path.join(FULL_PROJECT_ROOT, 'ext')
 ENV_PATH = os.path.join(FULL_PROJECT_ROOT, '.env')
 
 # New path definitions
